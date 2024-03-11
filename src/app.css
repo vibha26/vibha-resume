@@ -1,0 +1,220 @@
+a {
+  text-decoration: none;
+}
+
+/** section title **/
+h2 {
+  font-size: 1rem;
+  letter-spacing: 1.5;
+  line-height: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgrey;
+  width: 98%;
+  display: block;
+}
+
+i {
+  margin-right: 0.3rem;
+  color: #4527A0;
+}
+
+i.fa-question-circle {
+  margin-left: 1.5rem;
+  color: black;
+  opacity: 0.4;
+}
+
+rect {
+  stroke-width: 2;
+}
+
+div.main {
+  padding: 1rem;
+  flex: 1;
+  padding-top: 50px; /* adjust for the fixed top bar */
+}
+
+span.avatar {
+  margin-left: 10px !important; /** adjust for font-awesome icons to be in center **/
+  font-size: 1.6rem !important;
+}
+
+ul.inset {
+  margin-left: -1.5rem;
+}
+
+ul.inset > li {
+  white-space: normal; /** override material-ui's ui > li behavior in order to wrap text **/
+}
+
+.card-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-item {
+  width: 32%;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  border: solid 1px #ccc;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.experience-company {
+  font-size: 0.9rem;
+  color: rgba(69,39,160,0.8);
+}
+
+.experience-summary {
+  color: gray;
+}
+
+.experience-item {
+  flex: 1 0 auto;
+  width: 49%;
+}
+
+.experience-item ul > li > a {
+  color: darkblue;
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
+.vis-item.orange {
+  background-color: gold;
+  border-color: orange;
+}
+
+.award-title {
+  color: rgba(69,39,160,0.8);
+  font-weight: 800;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.skills-acquired-container {
+  width: 52%;
+}
+
+.skills-applied-container {
+  flex-wrap: wrap;
+  width: 49%;
+}
+
+.skills-acquired-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 0.2rem;
+}
+
+.skill-acquired-header {
+  font-weight: 600;
+  width: 20%;
+}
+
+.skill-acquired-items {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex: 1 0 auto;
+}
+
+.skill-acquired-item {
+  flex: 0 0 auto;
+  color: white;
+  margin-right: 0.5rem !important;
+}
+
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chip-item {
+  margin-top: 0.5rem;
+}
+
+.charts-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 32%;
+}
+
+.charts-item {
+  flex: 1 0 auto;
+}
+
+.myweek-chart {
+  margin-left: 2rem;
+}
+
+.language-chart {
+  margin-left: 0.8rem;
+}
+
+.interest-chart {
+  width: 500px;
+  height: 220px;
+}
+
+.legend {
+  font-size: 12px;
+}
+
+.training-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.training-item {
+  flex: 0 0 auto;
+  margin-right: 1rem !important;
+}
+
+.training-item:before {
+  content: '\25A7';
+  margin-right: 0.5rem;
+}
+
+div.training-item:nth-child(even) {
+  color: gray;
+}
+
+.help-text {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: none;
+  color: gray;
+}
+
+.footer {
+  border-top: solid 1px #ccc;
+  padding: 1rem;
+  background-color: #E8EAF6;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Ubuntu';
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', 'serif';
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  display: flex;
+  min-height: 100%;
+  margin: 0rem;
+  flex-direction: column;
+}
