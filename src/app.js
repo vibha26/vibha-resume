@@ -3,7 +3,7 @@ import './app.css';
 
 import AppBar from 'material-ui/AppBar';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 import AboutMe from './about-me';
 import Experience from './experience';

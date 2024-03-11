@@ -5,12 +5,12 @@ import Paper from 'material-ui/Paper';
 const d3 = require('d3')
 require('d3-scale')
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 const width = 180;
 const height = 220;
 const radius = Math.min(width, height) / 2;
-const color = d3.scaleOrdinal(d3.schemeCategory10);
+const color = d3.scaleOrdinal(d3.schemeCategory20);
 const donutWidth = 30;
 const legendRectSize = 18;
 const legendSpacing = 4;

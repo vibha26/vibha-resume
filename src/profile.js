@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Avatar from 'material-ui/Avatar'
 import FontIcon from 'material-ui/FontIcon'
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 class Profile extends Component {
 

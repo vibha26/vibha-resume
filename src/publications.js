@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 class Publications extends Component {
 

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import {formatDate} from './utils'
 
-import R from './data/resume.json';
+import R from '../data/resume.json';
 
 class Awards extends Component {
 

@@ -5,7 +5,7 @@ import Paper from 'material-ui/Paper';
 const d3 = require('d3')
 require('d3-scale')
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 const width = 180;
 const height = 180;

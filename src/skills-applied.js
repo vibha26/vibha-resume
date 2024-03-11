@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 const item = x => {
   return { __html: x }
@@ -18,12 +18,17 @@ class SkillsApplied extends Component {
     const synonyms = (domain.synonyms) ? domain.synonyms[skillWords[0]] : []
     skillWords = skillWords.concat(synonyms)
 
-    const workFilter = _.reduce(R.work, (result, x) => {
-      const highlights = _(skillWords).map(sw => x.highlights.filter(h0 => h0.match(new RegExp('\\s' + sw, 'gi')))).flatten().uniq().valueOf()
-      if (highlights.length > 0) {
-        result = result.concat(_.map(highlights, h => {return {company: x.company, text: h}}))
-      }
-      return result
+	const workFilter = _.reduce(R.work, (result, x) => {
+		const summary = _(skillWords).map(sw => x.summary.indexOf(sw) >= 0 ? summary : '').flatten().uniq().reject(x => x === '').valueOf()
+		const highlights = _(skillWords).map(sw => x.highlights.filter(h0 => h0.match(new RegExp('\\s' + sw, 'gi')))).flatten().uniq().valueOf()
+		if (highlights.length > 0) {
+			result = result.concat(_.map(highlights, h => {return {company: x.company, text: h}}))
+		}
+		console.log("Summary", summary);
+		if (summary.length > 0) {
+			result = result.concat(_(summary).filter(x => !!x).map(summary, h => {return {company: x.company, text: h}}).valueOf())
+		}
+		return result
     }, [])
 
     const awardFilter = _.reduce(R.awards, (result, x) => {
@@ -75,9 +80,9 @@ class SkillsApplied extends Component {
   }
 }
 
-// SkillsApplied.PropTypes = {
-//   skill: React.PropTypes.string.isRequired,
-//   domain: React.PropTypes.string.isRequired
-// }
+SkillsApplied.PropTypes = {
+  skill: React.PropTypes.string.isRequired,
+  domain: React.PropTypes.string.isRequired
+}
 
 export default SkillsApplied;

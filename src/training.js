@@ -1,11 +1,12 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 class Training extends Component {
 
   render() {
+	if (!R.training) return  null;
     return (
       <section>
         <h2><i className="fa fa-leanpub"></i>Training and Conferences</h2>

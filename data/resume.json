@@ -1,0 +1,269 @@
+{
+  "basics": {
+    "name": "Vibha Havanur",
+    "socialName": "hs.vibha",
+    "label": "QA Engineer",
+    "picture": "",
+    "email": "hs.vibha@gmail.com",
+    "phone": "512-364-5159",
+    "website": "https://vibha-hs-resume.com",
+    "summary": "QA Engineer, with an eye for meticulousness",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Austin, TX",
+      "countryCode": "TX",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "hs.vibha",
+        "url": "https://www.linkedin.com/in/vibha-havanur/"
+      },
+      {
+        "network": "github",
+        "username": "vibha26",
+        "url": "https://github.com/vibha26"
+      }
+    ]
+  },
+  "aboutme": [
+    {
+      "title": "About me",
+      "subtitle": "in a few words...",
+      "icon": "fa fa-user",
+      "items": [
+        "A decade of experience in QA Practices",
+        "HealthCare, Education, eGov, BioTechnology",
+        "Quality Assurance, with an eye to details",
+        "Apricity Healthcare, MacMillan Learning, Texas.gov, Driver Records and more..."
+      ]
+    },
+    {
+      "title": "What motivates me",
+      "subtitle": "when I wake up everyday...",
+      "icon": "fa fa-smile-o",
+      "items": [
+        "Keeping up with Customers",
+        "Keeping up with Technology",
+        "Mentor and Motivate next-gen",
+        "And then there is always more to learn and share..."
+      ]
+    },
+    {
+      "title": "What I seek",
+      "subtitle": "in a future that is present...",
+      "icon": "fa fa-dot-circle-o",
+      "items": [
+        "a role to challenge me",
+        "an opportunity to contribute to customer success",
+        "a team to work with exceptional leadership",
+        "an environment where work is an experience to live for"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Apricity Healthcare",
+      "position": "QA Automation Engineer",
+      "website": "http://www.apricityhealth.com",
+      "startDate": "2020-08",
+      "endDate": "",
+      "summary": "Healthcare, Providers, Patiences, Nurses, Medical SMEs",
+      "highlights": [
+        "First QA hire, laid the foundation for a comprehensive QA Practice",
+        "Functional and regression Tests for UI and API using Cypress / NodeJS",
+        "Comprehensive test plan documentation and testing strategies",
+        "integrate test cases with Zephyr, including traceability matrix",
+		"Automation tests for ReactJS apps like RTW",
+        "detailed sprint cycle reports for executive team",
+		"integration testing with external systems like Health Gorilla, Square and Zendesk",
+        "evaluate COVID-19 risk factors as part of Apricity Return to Work application",
+        "collaborate with DevOps to execute automation scripts in AWS Build pipelines",
+        "use AI Tools to validate and refine patient care instructions with a human touch"
+      ]
+    },
+    {
+      "company": "MacMillan Learning",
+      "position": "QA Lead",
+      "website": "https://www.macmillanlearning.com",
+      "startDate": "2018-10",
+      "endDate": "2020-07",
+      "summary": "Online Education, Students, Professors",
+      "highlights": [
+        "collaborate with PM and Engineers to define story requirements",
+        "document test suites and develop automation and regression tests",
+        "Behavior Driven Test cases using Selenium, Cucumber, Gherkin",
+        "Created UI tests and Policy definitions to grade/ungrade subjects - Pre-Calc, Graph, AceEditor",
+        "multi-author test cases - Author, Preview and Student modes",
+        "Internal Common Test Framework in NodeJS/Javascript, using Selenium web-driver, Mocha, Chai etc.",
+        "innovative ideas in Grooming and Retro to scale the team velocity",
+        "Setup Demo of QA automation to stakeholders and executive management",
+        "Interview QA Engineers and Mentoring"
+      ]
+    },
+    {
+      "company": "VisionWeb",
+      "position": "SDET Consultant",
+      "website": "https://www.visonweb.com",
+      "startDate": "2018-06",
+      "endDate": "2018-08",
+      "summary": "Healthcare, Providers, Optometrists, Opticians, Lens Makers",
+      "highlights": [
+        "inculcate QA automation practices and processes",
+        "educate executive management about benefits of Automation",
+        "presentations and demos to top management",
+        "Automation test framework using NightwatchJS",
+        "UI e2e regression tests",
+        "Created API Tests using PostmanPro and automated using Newman CLI",
+        "Conducted BrownBag sessions about current technology"
+      ]
+    },
+    {
+      "company": "Texas NIC USA",
+      "position": "Senior QA Analyst",
+      "website": "http://www.texas.gov",
+      "startDate": "2016-11",
+      "endDate": "2018-06",
+      "summary": "Texas eGov Services, Texas Citizens",
+      "highlights": [
+        "Agile Scrum team to create test plans for several web apps",
+        "oversaw Test suites for 7 high-volume public facing web apps",
+        "Automation Regression tests for several web apps",
+        "suggested and implemented automation using NightwatchJS",
+        "standardized manual testing procedures with Zephyr",
+        "implemented Accessibility Testing for all web apps using Jaws, TotalValidator",
+        "collaborated with DPS for CPA certifications for LTC and DLR apps",
+        "collaborated with DPS and Genesys for IVR systems and BDR",
+        "load testing using LoadedUI and Artillery for web apps backed by Oracle DB",
+        "tested for Responsive Design for Mobile platform apps",
+        "Document QA new hire best practices",
+        "Mentored new hires"
+      ]
+    },
+    {
+      "company": "Luminex Corp",
+      "position": "QA Analyst",
+      "website": "https://int.diasorin.com/",
+      "startDate": "2015-02",
+      "endDate": "2016-10",
+      "summary": "Clinical Diagnostic and LifeScience industry, BioTechnology, LifeScience,Scientific Equipment Manufacturers",
+      "highlights": [
+        "Luminex 100/200 System - analyzer built on xMAP technology to simultaneously measure up to 100 analytes in a single microplate",
+        "testing features of xPONENT Software, configuration, automation, connectivity and remote web monitoring",
+        "test behavior and functionality of Aries instrument software",
+        "real-time testing with meticulous configuring of hardware and software components to reduce error margins",
+        "Agile Scrum team"
+      ]
+    },
+    {
+      "company": "IQ Storm Solutions",
+      "position": "QA Analyst",
+      "website": "https://int.diasorin.com/",
+      "startDate": "2013-08",
+      "endDate": "2015-01",
+      "summary": "BioTechnology, Scientific Eqiupment Manufacturers",
+      "highlights": [
+        "test various features of a multi-facet biotech application",
+        "real-time integration testing using hardware components",
+        "manual UI testing for positive and negative cases",
+        "extensively document test procedures as tests were subject to Federal regulations"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Texas, Austin",
+      "area": "Physics",
+      "studyType": "B.S.",
+      "startDate": "2002",
+      "endDate": "2006",
+      "gpa": "3.25",
+      "courses": []
+    }
+  ],
+  "globalEvents": [
+    { "name": "AWS", "date": "2006-03"},
+    { "name": "iPhone 2G", "date": "2007-06"},
+    { "name": "Amazon Kindle", "date": "2007-11"},
+    { "name": "Subprime Crisis", "date": "2008-07"},
+    { "name": "Mars Rover", "date": "2011-11"},
+    { "name": "5G", "date": "2017-02"},
+    { "name": "Covid", "date": "2020-03"},
+    { "name": "ChatGPT", "date": "2022-12"}
+  ],
+  "skills": [
+    {
+      "name": "Domains",
+      "level": "Good",
+      "keywords": [ "Healthcare", "Education", "LifeScience", "eGov", "BioTechnology" ],
+	  "synonyms": {
+		"Healthcare": [ "COVID-19", "Health" ],
+		"Education": [ "Pre-Calc", "Graph" ],
+		"LifeScience": [ "Aries ", "BioTechnology" ],
+		"eGov": [ "LDR", "BDR", "Accessibility", "Jaws", "DPS" ],
+		"BioTechnology": [ "xPONENT", "xMAP" ]
+	  }
+    },
+    {
+      "name": "Management",
+      "level": "Good",
+      "keywords": [ "People", "Process", "Product", "Team", "Mentor" ],
+      "synonyms": {
+        "People": [ "Leadership", "Leads", "Lead", "Mentor", "Mentorship", "Managed", "Executive" ],
+        "Process": [ "Agile", "Scrum", "Documentation", "Practice", "Sprint", "Retro", "Team" ],
+		"Product": [ "Management", "Demo" ],
+		"Mentor": [ "BrownBag", "new hire", "interview" ]
+      }
+    },
+    {
+      "name": "Cloud and Web",
+      "level": "Sufficient",
+      "keywords": [ "NodeJS", "ReactJS", "AWS", "API", "UI" ]
+    },
+    {
+      "name": "QA and Automation",
+      "level": "Excellent",
+      "keywords": [ "Automation", "Cypress", "NightwatchJS", "Testing", "Performance"  ],
+      "synonyms": {
+        "People": [ "Leadership", "Leads", "Lead", "Mentor", "Mentorship", "Managed" ],
+        "Process": [ "Agile", "Scrum", "Sprint" ],
+		"Testing": [ "UI", "UX", "Test", "Tests", "Functional", "Performance", "Loaded", "Artillery", "Selenium", "Cucumber", "Gherkin" ],
+        "Cypress": [ "Selenium", "QA", "Automation", "Framework" ],
+		"NightwatchJS": [ "Selenium", "QA", "Automation"],
+		"Performance": [ "Artillery", "Loaded" ]
+      }
+    },
+    {
+      "name": "Databases",
+      "level": "Good",
+      "keywords": [ "MongoDB", "Oracle" ]
+    }
+  ],
+  "languages": [
+    { "name": "Kannada", "level": 5 },
+    { "name": "English", "level": 4 },
+    { "name": "Hindi", "level": 3 }
+  ],
+  "interests": [
+    {
+      "name": "Astronomy",
+      "keywords": [ "Star-gazing", "Physics" ]
+    },
+    {
+      "name": "Arts",
+      "keywords": [ "Dance", "Music" ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [ "Walking", "Yoga" ]
+    }
+  ],
+  "myweek": [
+    {"name": "coding", "percent": "30"},
+    {"name": "testing", "percent": "30"},
+    {"name": "people", "percent": "30" },
+    {"name": "learn-n-share", "percent": "10"}
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "name": "resume-md",
+  "name": "vibha-resume",
   "version": "2023.03",
   "description": "A Resume generator using Resume JSON standard, ReactJS and Material UI",
-  "author": "Vasu Srinivasan",
+  "author": "Vibha Havanur",
   "keywords": [
     "resume-json",
     "ReactJS",
@@ -16,17 +16,18 @@
   },
   "main": "./src/index.js",
   "dependencies": {
-    "d3": "^7.8.5",
-    "jspdf": "^2.5.1",
-    "lodash": "^4.17.21",
-    "material-ui": "0.20.2",
-    "moment": "^2.30.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "react-tap-event-plugin": "^3.0.3",
-    "vis": "^4.21.0-EOL",
-    "yarn": "^1.22.21"
+    "create-react-app": "^5.0.1",
+    "d3": "^4.7.1",
+    "jspdf": "^1.3.3",
+    "lodash": "^4.17.4",
+    "material-ui": "0.17.0",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scripts": "0.9.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "vis": "^4.18.1",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,17 +36,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }

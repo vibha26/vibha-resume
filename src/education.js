@@ -2,7 +2,7 @@ import _ from 'lodash';
 import mo from 'moment';
 import React, { Component } from 'react';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 class Education extends Component {
 

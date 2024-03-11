@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import Chip from 'material-ui/Chip';
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 import SkillsApplied from './skills-applied'
 

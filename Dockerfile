@@ -1,6 +1,6 @@
 FROM node:14.4
 LABEL version "1.0.0"
-MAINTAINER "Vasu Srinivasan"
+MAINTAINER "Vibha Havanur"
 
 # Avoid dialog fontend known error
 ARG TERM=linux

@@ -9,7 +9,7 @@ require('../node_modules/vis/dist/vis.min.css')
 require('../node_modules/vis/dist/vis-network.min.css')
 require('../node_modules/vis/dist/vis-timeline-graph2d.min.css')
 
-import R from './data/resume.json'
+import R from '../data/resume.json'
 
 let index = 0
 let nodes = [], edges = []
